@@ -1,0 +1,53 @@
+.person-img {
+    height: 80px;
+    width: 80px;
+    background-image: url('icon-2.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 600px;
+    background-color: #dde7e8;
+    margin-right: 1em;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.time {
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0, 0.6);
+}
+h4 {
+    color: rgba(0, 0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+.name {
+    margin: 5px;
+}
+.mxg {
+    color: rgba(0, 0, 0, 0, 0.5);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.info > * {
+    margin: 0;
+}
+.all {
+    display: flex;
+    align-items: flex-start;
+}
+.all p {
+    margin: 0;
+}
+.mxg-container {
+    display: flex;
+}
+i {
+    margin-right: 5px;
+}
+section {
+    border-bottom: 1px solid gray;
+    padding: 0.7em;
+    width: 400px;
+}
